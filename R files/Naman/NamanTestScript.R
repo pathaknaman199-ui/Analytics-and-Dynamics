@@ -39,7 +39,6 @@ top_categories <- order(row_sums, decreasing = TRUE)
 out[top_categories[1:10], 1]
 
 
-
 # Take the #1 most visited category
 best_row <- top_categories[1]
 cat("Analysing category:", as.character(out[best_row, 1]), "\n")
